@@ -1,2 +1,2 @@
 # eudora-project
-PSD to HTML/CSS project #2
+Converting PSD to HTML/CSS project #2
