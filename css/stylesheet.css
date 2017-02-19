@@ -1,0 +1,496 @@
+
+
+/***********************************************************************************************************
+
+                                             **** EUDORA PROJECT *****
+
+/***********************************************************************************************************/
+
+/**************************
+00. Fonts 
+***************************/
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/Raleway/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Raleway/Raleway-Bold.ttf') format('ttf'),
+         url('../fonts/Raleway/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/Raleway/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Raleway/Raleway-Regular.ttf') format('ttf'),
+         url('../fonts/Raleway/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'playfair_displaybold';
+    src: url('../fonts/Playfair_Display/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Playfair_Display/PlayfairDisplay-Bold.otf') format('otf'),
+         url('../fonts/Playfair_Display/playfairdisplay-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'playfair_displaybold_italic';
+    src: url('../fonts/Playfair_Display/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.otf') format('otf'),
+         url('../fonts/Playfair_Display/playfairdisplay-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('../fonts/Bebas_Neue/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('../fonts/Bebas_Neue/BebasNeue-Bold.ttf') format('ttf'),
+         url('../fonts/Bebas_Neue/bebasneue_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/Bebas_Neue/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('../fonts/Bebas_Neue/BebasNeue-Regular.ttf') format('ttf'),
+         url('../fonts/Bebas_Neue/bebasneue_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    color: #6e7498;
+    font-family: 'ralewayregular';
+}
+ul {
+    list-style-type: none;
+}
+
+
+
+/********************************
+01.Navigation 
+********************************/
+.navbar {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  padding: 80px 0;
+  margin-bottom: 0;
+}
+.navbar ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.navbar ul li{
+  display: inline-block;
+  margin-right: 70px;
+}
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+.navbar ul.logo-center li {
+  margin: 0 100px;
+}
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'ralewaybold';
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+     letter-spacing: 0.01em;
+    line-height: 48px;
+}
+.navbar a:focus, 
+.navbar a:hover {
+    color: #e59205;
+} 
+
+.navbar a.logo {
+    font-size: 72px;
+    color: #e59205;
+    text-transform: none;
+    font-family: 'playfair_displaybold';
+}
+
+
+
+
+/********************************
+02.Header
+********************************/
+.slider1 {
+    background-image: url("../img/bg01.png");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 370px;
+    padding-bottom: 370px;
+    color: #fff;
+}
+.bg-overlay-slider {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.slider1 .container {
+    position: relative;
+}
+.slider1 h1{
+    font-size: 72px;
+    font-family: 'playfair_displaybold_italic';
+    margin-top: 0;
+    margin-bottom: 53px;
+    text-shadow: 0 0 40px #000;
+}
+.slider1 p {
+    padding: 0 200px;
+    letter-spacing: 0.01em;
+    line-height: 48px;
+    margin-bottom: 70px;
+    text-shadow: 0 0 40px #000;
+}
+.slogan-color {
+    color: #e59205;
+}
+.slider1 .btn {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    border: 2px solid #fff;
+    border-radius: 0;
+    padding: 10px 30px;
+    background-color: transparent;
+    height: 62px;
+    letter-spacing: 0.01em;
+    font-family: 'bebas_neuebold';
+    transition: all 0.3s ease;
+}
+.slider1 .btn:focus,
+.slider1 .btn:hover {
+   background-color: #e59205;
+   border: 2px solid #e59205;
+   color: #fff;
+}
+
+
+
+/********************************
+03.Category-1
+********************************/
+.category-1-1 {
+
+}
+.category-1-1 p {
+  margin-bottom: 105px;
+}
+.category-1-1 ul {
+   display: inline-block;
+}
+.category-1-1 ul li a {
+    text-transform: uppercase;
+    color: #6e7498;
+    font-size: 30px;
+    border: 2px solid #d9dcee;
+    border-radius: 0;
+    padding: 10px 30px;
+    background-color: #fff;
+    height: 62px;
+    font-family: 'bebas_neuebold';
+}
+.category-1-1 .tab-content img {
+   margin-bottom: 50px;
+   -webkit-box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.15);
+     -moz-box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.15);
+        box-shadow: 0px 0px 54px 0px rgba(0,0,0,0.15);
+}
+.category-1-1 .tab-content h4 {
+   font-family: 'playfair_displaybold_italic';
+   color: #e59205;
+   font-size: 72px;
+   margin-top: 0;
+   margin-bottom: 50px;
+}
+.category-1-1 .tab-content h5 {
+   font-family: 'ralewayregular';
+   color: #3a3a3a;
+   font-size: 26px;
+   font-weight: 600;
+}
+.category-1-1 .tab-content p {
+    font-size: 18px;
+    color: #a4a8bc;
+    letter-spacing: 0.01em;
+    line-height: 48px;
+    margin-bottom: 60px;
+}
+.category-1-1 .tab-content .btn {
+    text-transform: uppercase;
+    color: #6e7498;
+    font-size: 30px;
+    border: 2px solid #d9dcee;
+    border-radius: 0;
+    padding: 10px 30px;
+    width: 204px;
+    background-color: #fff;
+    height: 62px;
+    font-family: 'bebas_neuebold';
+    transition: all 0.3s ease;
+}
+.category-1-1 .tab-content .btn:focus,
+.category-1-1 .tab-content .btn:hover {
+   background-color: #e59205;
+   border: 2px solid #e59205;
+   color: #fff;
+}
+.category-1-1 .nav-tabs{
+    border: none;
+    margin-bottom: 135px;
+}
+.category-1-1 .nav-tabs li {
+    margin-right: 50px;
+}
+.category-1-1 .nav-tabs li:last-child{
+    margin-right: 0;
+}
+.category-1-1 .category-1-1 .nav-tabs li:last-child{
+    margin-right: 0;
+}
+.category-1-1 .nav-tabs>li.active>a, 
+.category-1-1 .nav-tabs>li.active>a:focus,
+.category-1-1 .nav-tabs>li.active>a:hover {
+    color: #fff !important;
+    background-color: #e59205 !important;
+    border: 2px solid #e59205 !important;
+}
+
+
+
+
+
+/********************************
+04.Category-2
+********************************/
+.category-2-1 {
+
+}
+.cat2-1-color {
+    background-color: #e59205;
+    color: #fff;
+    height: 565px;
+}
+.image-cat2-1 {
+    background-image: url("../img/bg02.png");
+    background-position: center center;
+    background-size: cover;
+    height: 565px;
+}
+
+
+
+
+/********************************
+05.Category-3
+********************************/
+.category-3-1 {
+
+}
+.category-3-1 h4 {
+    font-size: 36px;
+    font-family: 'playfair_displaybold';
+    margin-top: 50px;
+    margin-bottom: 55px;
+    letter-spacing: 0.01em;
+}
+.category-3-1 .classa-name p {
+    font-size: 18px;
+    color: #a4a8bc;
+    letter-spacing: 0.01em;
+    line-height: 48px;
+    margin-bottom: 60px;
+}
+.category-3-1 .btn {
+    text-transform: uppercase;
+    color: #6e7498;
+    font-size: 30px;
+    border: 2px solid #d9dcee;
+    border-radius: 0;
+    padding: 10px 30px;
+    background-color: #fff;
+    height: 62px;
+    font-family: 'bebas_neuebold';
+    transition: all 0.3s ease;
+}
+.category-3-1 .btn:focus,
+.category-3-1 .btn:hover  {
+   background-color: #e59205;
+   border: 2px solid #e59205;
+   color: #fff;
+}
+.mb-c3 {
+    margin-bottom: 160px;
+}
+
+
+
+/********************************
+06.Subscrite
+********************************/
+.subscrite1 {
+    background-image: url("../img/bg03.png");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 150px;
+}
+.subscrite1 h2{
+   color: #fff;
+   margin-top: 0;
+   margin-bottom: 80px;
+}
+.subscrite1 .form-control {
+    width: 56%;
+    height: 70px;
+    margin: 0 auto;
+    font-size: 29px;
+    color: #fff;
+    border: 2px solid #d9dcee;
+    border-radius: 0;
+    background-color: transparent;
+}
+.subscrite1 .btn {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 29px;
+    border: 2px solid #e59205;
+    border-radius: 0;
+    padding: 10px 30px;
+    background-color: #e59205;
+    height: 65px;
+    font-family: 'bebas_neuebold';
+    transition: all 0.3s ease;
+}
+.subscrite1 .btn:focus,
+.subscrite1 .btn:hover {
+   background-color: #fff;
+   border: 2px solid #fff;
+   color: #e59205;
+}
+.subscrite1 .form-group {
+    margin-bottom: 80px;
+}
+.subscrite1 ::-webkit-input-placeholder { 
+    color: #fff;
+}
+.subscrite1 ::-moz-placeholder { 
+    color: #fff;
+}
+.subscrite1 ::-ms-input-placeholder { 
+    color: #fff;
+}
+
+
+
+/********************************
+07.Footer
+********************************/
+.footer1 { 
+  padding: 75px 0;
+  color: #a4a8bc;
+}
+.footer1  p { 
+  margin: 0;
+  font-size: 20px;
+}
+.footer1 ul {
+    float: right;
+    padding: 0;
+    margin-top: 4px;
+}
+.footer-nav li {
+    display: inline-block;
+    margin-left: 22px;
+}
+.footer-nav li a {
+    color: #a4a8bc;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.footer-nav li a:focus,
+.footer-nav li a:hover {
+    color: #e59205;
+}
+
+
+
+/********************************
+08.General 
+********************************/
+section {
+    padding: 30px 0;
+}
+h2 {
+    font-size: 72px;
+    font-family: 'playfair_displaybold_italic';
+}
+p {
+    font-size: 24px;
+}
+.hr-style {
+    border: 1px solid #e59205;
+    margin-top: -45px;
+    margin-bottom: 95px;
+}
+h2 span {
+  background-color: #fff;
+  padding: 0 30px;
+}
+
+
+
+/********************************
+09.Media Queries
+********************************/
+
+
+	/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
